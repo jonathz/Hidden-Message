@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white;
+}
+.main {
+  height: 100vh;
+}
+.riddle {
+  padding: 20px;
+  width: 95%;
+  height: 95%;
+}
+.riddle-container {
+  background-color: white;
+  margin: 20px;
+}
+.message-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message1,
+.message2,
+.message3,
+.message4 {
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.message1 button {
+  width: 100px;
+}
+.message2,
+.message3,
+.message4 {
+  display: none;
+}
